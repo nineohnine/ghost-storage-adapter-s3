@@ -91,11 +91,11 @@ class Store extends BaseStore {
     })
   }
 
-  serve () {
-    return (req, res, next) => {
-      next()
-    }
-  }
+  // serve () {
+  //   return (req, res, next) => {
+  //     next()
+  //   }
+  // }
 }
 
 export default Store
